@@ -3,7 +3,7 @@
 
 Vagrant.configure("2") do |config|
 
-  config.vm.box = "ubuntu/xenial64"
+  config.vm.box = "ubuntu/noble64"
 
   config.vm.network "forwarded_port", guest: 8181, host: 8181
   config.vm.network "forwarded_port", guest: 8182, host: 8182
